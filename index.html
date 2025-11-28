@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sunshine Chennai Senior Secondary School</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-dark">
+  <header class="top-app-bar">
+    <div class="top-app-bar__title">
+      Sunshine Chennai Senior Secondary School
+    </div>
+    <div class="top-app-bar__subtitle">
+      2025 CS · MATH · ENGLISH
+    </div>
+    <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+      🌞
+    </button>
+  </header>
+
+  <main class="main-layout">
+    <section class="card-row">
+      <article class="surface-card" data-url="https://weatherezy.netlify.app" tabindex="0" aria-label="Open WeatherEzy app">
+        <div class="card-image-wrapper">
+          <img src="https://i.ibb.co/zTcX6PBm/Screenshot-2025-11-26-102546.png" alt="WeatherEzy app thumbnail" class="card-image" />
+          <div class="card-image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <div class="card-header">
+            <span class="card-icon chip-weather">☀️</span>
+            <span class="card-title">WeatherEzy</span>
+          </div>
+          <p class="card-desc">
+            Simple weather app showing live temperature and climate conditions for any location.
+          </p>
+          <button class="card-cta primary" type="button">
+            Open WeatherEzy
+          </button>
+        </div>
+      </article>
+
+      <article class="surface-card" data-url="https://proplotter.netlify.app" tabindex="0" aria-label="Open ProPlotter app">
+        <div class="card-image-wrapper">
+          <img src="https://i.ibb.co/9mf77dr1/Screenshot-2025-11-26-103142.png" alt="ProPlotter app thumbnail" class="card-image" />
+          <div class="card-image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <div class="card-header">
+            <span class="card-icon chip-plotter">📈</span>
+            <span class="card-title">ProPlotter</span>
+          </div>
+          <p class="card-desc">
+            Plot graphs from coordinates, customize visuals, and download sharp graph images.
+          </p>
+          <button class="card-cta secondary" type="button">
+            Open ProPlotter
+          </button>
+        </div>
+      </article>
+
+      <article class="surface-card" data-url="https://uncatfull.github.io/Liquid-Hangman/" tabindex="0" aria-label="Play Liquid Hangman game">
+        <div class="card-image-wrapper">
+          <img src="https://i.ibb.co/rCKYSJ2/Screenshot-2025-11-26-103238.png" alt="Liquid Hangman game thumbnail" class="card-image" />
+          <div class="card-image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <div class="card-header">
+            <span class="card-icon chip-hangman">🎮</span>
+            <span class="card-title">Liquid Hangman</span>
+          </div>
+          <p class="card-desc">
+            Guess the word in 6 tries with a playful, fluid interface and quick feedback.
+          </p>
+          <button class="card-cta tertiary" type="button">
+            Play Hangman
+          </button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="bottom-bar">
+    <span>Made with ♥ in Chennai</span>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
